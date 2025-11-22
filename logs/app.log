@@ -1,0 +1,192 @@
+2025-11-21T14:20:28.138Z [INFO]: DB connection OK
+2025-11-21T14:20:28.149Z [INFO]: Server running on port 5000
+2025-11-21T14:20:40.639Z [INFO]: DB connection OK
+2025-11-21T14:20:40.643Z [INFO]: Server running on port 5000
+2025-11-21T14:48:54.570Z [INFO]: DB connection OK
+2025-11-21T14:48:54.574Z [INFO]: Server running on port 5000
+2025-11-21T15:09:22.359Z [INFO]: DB connection OK
+2025-11-21T15:09:22.367Z [INFO]: Server running on port 5000
+2025-11-21T15:20:20.852Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.insert (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Organisation.create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async register (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\authController.js:12:17)
+2025-11-21T15:23:10.753Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async User.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async User.findOne (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async login (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\authController.js:46:18)
+2025-11-21T15:24:23.116Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.insert (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Organisation.create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async register (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\authController.js:12:17)
+2025-11-21T15:28:53.504Z [INFO]: DB connection OK
+2025-11-21T15:28:53.517Z [INFO]: Server running on port 5000
+2025-11-21T15:30:22.716Z [INFO]: DB connection OK
+2025-11-21T15:30:22.726Z [INFO]: Server running on port 5000
+2025-11-21T15:31:44.814Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at async PostgresQueryInterface.insert (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async User.create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async register (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\authController.js:15:18)
+2025-11-21T15:32:25.069Z [INFO]: DB connection OK
+2025-11-21T15:32:25.079Z [INFO]: Server running on port 5000
+2025-11-21T15:33:11.279Z [ERROR]: Audit log failed: relation "Logs" does not exist
+2025-11-21T15:33:29.101Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async list (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:6:18)
+2025-11-21T15:33:55.141Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.insert (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Employee.create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:22:17)
+2025-11-21T15:36:48.742Z [INFO]: DB connection OK
+2025-11-21T15:36:48.755Z [INFO]: Server running on port 5000
+2025-11-21T15:37:07.554Z [INFO]: DB connection OK
+2025-11-21T15:37:07.569Z [INFO]: Server running on port 5000
+2025-11-21T15:37:23.596Z [INFO]: DB connection OK
+2025-11-21T15:37:23.605Z [INFO]: Server running on port 5000
+2025-11-21T15:37:31.942Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async list (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:6:18)
+2025-11-21T15:37:58.544Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.insert (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:2490:35)
+    at async Employee.create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1362:12)
+    at async create (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:22:17)
+2025-11-21T15:41:09.596Z [INFO]: DB connection OK
+2025-11-21T15:41:09.607Z [INFO]: Server running on port 5000
+2025-11-21T15:41:15.803Z [ERROR]: SequelizeEagerLoadingError: Team is not associated to Employee!
+    at Employee._getIncludedAssociation (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:565:13)
+    at Employee._validateIncludedElement (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Employee._validateIncludedElements (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:417:39)
+    at Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async list (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:6:18)
+2025-11-21T15:41:39.458Z [ERROR]: Audit log failed: column "timestamp" does not exist
+2025-11-21T15:41:39.488Z [ERROR]: SequelizeEagerLoadingError: Team is not associated to Employee!
+    at Employee._getIncludedAssociation (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:565:13)
+    at Employee._validateIncludedElement (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:502:53)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Employee._validateIncludedElements (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:417:39)
+    at Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1124:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async list (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:6:18)
+2025-11-21T15:47:12.933Z [INFO]: DB connection OK
+2025-11-21T15:47:12.949Z [INFO]: Server running on port 5000
+2025-11-21T15:47:29.463Z [INFO]: DB connection OK
+2025-11-21T15:47:29.470Z [INFO]: Server running on port 5000
+2025-11-21T15:47:48.822Z [INFO]: DB connection OK
+2025-11-21T15:47:48.833Z [INFO]: Server running on port 5000
+2025-11-21T15:48:07.808Z [INFO]: DB connection OK
+2025-11-21T15:48:07.820Z [INFO]: Server running on port 5000
+2025-11-21T15:50:42.186Z [INFO]: DB connection OK
+2025-11-21T15:50:42.205Z [INFO]: Server running on port 5000
+2025-11-21T16:03:48.547Z [INFO]: team.create - user: 1, org: 2, meta: {"teamId":1,"payload":{"name":"ram","description":"hiii","organisation_id":2}}
+2025-11-21T16:03:53.413Z [INFO]: team.update - user: 1, org: 2, meta: {"teamId":1,"changes":{"name":"ram","description":"hiii"}}
+2025-11-21T16:03:57.183Z [INFO]: team.delete - user: 1, org: 2, meta: {"teamId":1}
+2025-11-21T16:08:28.426Z [INFO]: DB connection OK
+2025-11-21T16:08:28.442Z [INFO]: Server running on port 5000
+2025-11-21T16:20:12.584Z [INFO]: DB connection OK
+2025-11-21T16:20:12.591Z [INFO]: Server running on port 5000
+2025-11-21T16:22:13.345Z [INFO]: DB connection OK
+2025-11-21T16:22:13.351Z [INFO]: Server running on port 5000
+2025-11-21T16:22:25.657Z [INFO]: DB connection OK
+2025-11-21T16:22:25.664Z [INFO]: Server running on port 5000
+2025-11-21T16:22:45.572Z [INFO]: DB connection OK
+2025-11-21T16:22:45.577Z [INFO]: Server running on port 5000
+2025-11-21T16:22:54.041Z [INFO]: DB connection OK
+2025-11-21T16:22:54.046Z [INFO]: Server running on port 5000
+2025-11-21T16:23:20.038Z [INFO]: DB connection OK
+2025-11-21T16:23:20.045Z [INFO]: Server running on port 5000
+2025-11-21T16:42:01.540Z [INFO]: team.create - user: 1, org: 2, meta: {"teamId":2,"payload":{"name":"Dev","description":"this rewuired","organisation_id":2}}
+2025-11-21T16:42:15.297Z [INFO]: employee.assign - user: 1, org: 2, meta: {"employeeId":1,"teamId":2}
+2025-11-21T17:00:51.253Z [INFO]: DB connection OK
+2025-11-21T17:00:51.265Z [INFO]: Server running on port 5000
+2025-11-22T03:51:54.878Z [INFO]: DB connection OK
+2025-11-22T03:51:54.887Z [INFO]: Server running on port 5000
+2025-11-22T04:15:07.940Z [INFO]: org.create - user: 2, org: 3, meta: {"orgId":3,"userId":2}
+2025-11-22T04:31:01.123Z [INFO]: employee.create - user: 2, org: 3, meta: {"employeeId":2,"payload":{"first_name":"Ramarao","last_name":"Kumar","email":"test@123","phone":"2222222222","organisation_id":3}}
+2025-11-22T04:31:13.272Z [INFO]: team.create - user: 2, org: 3, meta: {"teamId":3,"payload":{"name":"Dev","description":"hello","organisation_id":3}}
+2025-11-22T04:31:25.807Z [INFO]: employee.assign - user: 2, org: 3, meta: {"employeeId":2,"teamId":3}
+2025-11-22T04:31:36.858Z [INFO]: team.update - user: 2, org: 3, meta: {"teamId":3,"changes":{"name":"Dev","description":"hello"}}
+2025-11-22T04:58:32.531Z [INFO]: DB connection OK
+2025-11-22T04:58:32.536Z [INFO]: Server running on port 5000
+2025-11-22T04:58:40.855Z [INFO]: DB connection OK
+2025-11-22T04:58:40.861Z [INFO]: Server running on port 5000
+2025-11-22T05:04:53.382Z [INFO]: DB connection OK
+2025-11-22T05:04:53.391Z [INFO]: Server running on port 5000
+2025-11-22T05:10:51.481Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Employee.findOne (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async update (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:30:17)
+2025-11-22T05:13:49.695Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Employee.findOne (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async update (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:30:17)
+2025-11-22T05:14:41.165Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Employee.findOne (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async update (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:30:17)
+2025-11-22T05:16:00.152Z [INFO]: DB connection OK
+2025-11-22T05:16:00.160Z [INFO]: Server running on port 5000
+2025-11-22T05:17:23.728Z [INFO]: DB connection OK
+2025-11-22T05:17:23.733Z [INFO]: Server running on port 5000
+2025-11-22T05:17:34.129Z [ERROR]: Error
+    at Query.run (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async PostgresQueryInterface.select (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\dialects\abstract\query-interface.js:407:12)
+    at async Employee.findAll (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1140:21)
+    at async Employee.findOne (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\node_modules\sequelize\lib\model.js:1240:12)
+    at async exports.update (C:\Users\Kushu\OneDrive\Desktop\hrms\backend\src\controllers\employeeController.js:30:15)
+2025-11-22T05:19:12.488Z [INFO]: DB connection OK
+2025-11-22T05:19:12.492Z [INFO]: Server running on port 5000
+2025-11-22T05:24:56.625Z [INFO]: team.create - user: 2, org: 3, meta: {"teamId":4,"payload":{"name":"Dev","description":"Rople","organisation_id":3}}
+2025-11-22T05:25:09.959Z [INFO]: team.create - user: 2, org: 3, meta: {"teamId":5,"payload":{"name":"repo","description":"gone","organisation_id":3}}
+2025-11-22T05:35:06.050Z [INFO]: DB connection OK
+2025-11-22T05:35:06.053Z [INFO]: Server running on port 5000
+2025-11-22T05:49:44.139Z [INFO]: org.create - user: 3, org: 4, meta: {"orgId":4,"userId":3}
+2025-11-22T05:50:14.489Z [INFO]: team.create - user: 3, org: 4, meta: {"teamId":6,"payload":{"name":"l","description":"l","organisation_id":4}}
+2025-11-22T06:07:10.308Z [INFO]: org.create - user: 4, org: 5, meta: {"orgId":5,"userId":4}
