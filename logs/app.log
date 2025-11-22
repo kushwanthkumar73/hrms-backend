@@ -190,3 +190,5 @@
 2025-11-22T05:49:44.139Z [INFO]: org.create - user: 3, org: 4, meta: {"orgId":4,"userId":3}
 2025-11-22T05:50:14.489Z [INFO]: team.create - user: 3, org: 4, meta: {"teamId":6,"payload":{"name":"l","description":"l","organisation_id":4}}
 2025-11-22T06:07:10.308Z [INFO]: org.create - user: 4, org: 5, meta: {"orgId":5,"userId":4}
+2025-11-22T06:54:20.332Z [INFO]: DB connection OK
+2025-11-22T06:54:20.343Z [INFO]: Server running on port 5000
